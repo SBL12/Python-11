@@ -1,0 +1,183 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "9/21/21 Class 2 PBB.ipynb",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNzv9zBaiwsPXW44pW1zMDK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SBL12/Python-11/blob/master/9_21_21_Class_2_PBB.ipynb%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kGsYvWwl13tT",
+        "outputId": "8bd4b2e9-30f0-40b5-cfd7-54bcde47b4ba"
+      },
+      "source": [
+        "num1=int(input(\"Enter the number you would like to use.\"))\n",
+        "if(num1%3==0):\n",
+        "    print(\"The Number is Divisible by 3 (three).\")\n",
+        "else:\n",
+        "    print(\"This number is not divisible by 3 (three).\".format )"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number you would like to use.8\n",
+            "<built-in method format of str object at 0x7f00e1bdaab0>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "dOVMM5PW5f7C"
+      },
+      "source": [
+        "Warm-Up Exercise:\n",
+        "\n",
+        "\n",
+        "\n",
+        "Input a number\n",
+        "and check that number is multiple of 3 or not\n",
+        "\n",
+        "\n",
+        "ex:  Multiples of 3, 0,3,6,9\n",
+        "\n",
+        "\n",
+        "12  YES\n",
+        "17   NO\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y3Fcj9eu4PHL",
+        "outputId": "10ce730f-ad24-437a-de85-cc9c1c878349"
+      },
+      "source": [
+        "print(19/2)\n",
+        "print(19//2)\n",
+        "print(19%2)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9.5\n",
+            "9\n",
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "bSU7fjVH6zKP"
+      },
+      "source": [
+        "number=int(input(\"Enter the number you are wishong to use\"))\n",
+        "if (number%0):\n",
+        "    print()"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "HbT1xylI7w1S"
+      },
+      "source": [
+        "Write a program that prompts the user to input a number and \n",
+        "display if the number is even or odd\n",
+        "\n",
+        "10-Even Number\n",
+        "15-ODD number\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "G9sjaAMS80jM",
+        "outputId": "70d38cec-e074-4580-bfaa-da6a8e88639d"
+      },
+      "source": [
+        "# Asignment 5\n",
+        "\n",
+        "# part A\n",
+        "\n",
+        "Math=float(input(\"Enter the number that you wish to calculate\"))\n",
+        "ELA=float(input(\"Enter the second number that you wish to calculate\"))\n",
+        "Science=float(input(\"Enter the third number that you wish to calculate\"))\n",
+        "SocialStuddies=float(input(\"Enter the fourth number that you wish to calculate\"))\n",
+        "avg=(Math+ELA)/3\n",
+        "print(f\"You'r score is {round(avg,1)}\")\n",
+        "\n",
+        "if avg>=90:\n",
+        "  print(\"Your Grand total grade is a... A!\")\n",
+        "elif avg>80 and avg<90:\n",
+        "  print(\"Your Grand total grade is a... B!\")\n",
+        "elif avg>70 and avg<=80:\n",
+        "  print(\"Your Grand total grade is a... C!\")\n",
+        "elif avg>=60 and avg<70:\n",
+        "  print(\"Your Grand total grade is a... D\")\n",
+        "elif avg>=50 and avg<60:\n",
+        "  print(\"Your Grand total grade is a... E\")\n",
+        "elif avg>=40 and avg<50:\n",
+        "  print(\"Your Grand total grade is a... F\")\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number that you wish to calculate7\n",
+            "Enter the second number that you wish to calculate80\n",
+            "Enter the third number that you wish to calculate90\n",
+            "Enter the fourth number that you wish to calculate43\n",
+            "You'r score is 29.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
